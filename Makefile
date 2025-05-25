@@ -1,13 +1,17 @@
 FILENAME = "main"
 FIRSTNAME = "First"
 LASTNAME = "Last"
+## Your favourite pdf viewer, e.g. okular
+PDFVIEWER = zathura
 
 ## -----------------------------------------
 ##       DO NOT EDIT BELOW THIS LINE
 ## -----------------------------------------
 
+## Fork of:
 ## Makefile von Karl Voit (Karl@Voit.net)
 ## fuer LaTeX-Vorlagen nach Dinopolis
+## Fork by finem4n made for polish folks
 
 ## (urspruengliche Fassung: Harald Krottmaier)
 
@@ -20,7 +24,6 @@ PDFLATEX_CMD = pdflatex
 TIMESTAMP = `/bin/date +%Y-%m-%d`
 DE_TIMESTAMP_AND_PROJECT = ${TIMESTAMP}_${FIRSTNAME}_${LASTNAME}_-_Lebenslauf_deutsch.pdf
 EN_TIMESTAMP_AND_PROJECT = ${TIMESTAMP}_${FIRSTNAME}_${LASTNAME}_-_CV_english.pdf
-PDFVIEWER = okular
 
 #help
 #helpThe main targets of this Makefile are:
