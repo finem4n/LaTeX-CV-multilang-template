@@ -20,7 +20,7 @@ get basic knowledge from tutorial pages such as [this one](http://LaTeX.TUGraz.a
 Since switching languages makes use of symbolic links, *this template
 does not work on Windows machines without further adaptations*.
 
-Please remember to install LaTeX packages.
+Please ensure that all required LaTeX packages are installed, especially `babel.sty` and `optional.sty`.
 
 ## What Makes This Template Special?
 
@@ -53,14 +53,14 @@ Tekst poza \\en{} i \\pl{} będzie widoczny w obu wersjach CV.
 ```
 
 3. Generate the result PDF files:
-   - `make pdfen` for the English CV only
-   - `make pdfpl` for the Polish CV only
-   - `make all` for both CVs
+   - `make -C src pdfen` for the English CV only
+   - `make -C src pdfpl` for the Polish CV only
+   - `make -C src all` for both CVs
 
 You can learn about the other helpful make targets by invoking:
 
 ```sh
-make help
+make -C src help
 ```
 
 ## TODOs
