@@ -64,7 +64,7 @@ view:
 #help	clean	clean up temporary files
 .PHONY: clean
 clean:
-	-rm -r *.bcf *.run.xml _*_.* *~ *.aux *.bbl *.blg *.idx *.ilg *.ind *.toc *.log *.log *.brf *.out *.lof *.lot *.gxg *.glx *.gxs *.glo *.gls -f
+	-rm -r *.bcf *.run.xml _*_.* *~ *.aux *.bbl *.blg *.idx *.ilg *.ind *.toc *.log *.log *.brf *.out *.lof *.lot *.gxg *.glx *.gxs *.glo *.gls language.tex pdfa.xmpi -f
 
 #help	purge	cleaner than clean ;-)
 .PHONY: purge
