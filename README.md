@@ -65,3 +65,4 @@ make -C src help
 
 ## TODOs
 - [ ] Check why `\usepackage[polish]{babel}` doesn't work on my system (Is babel package divide into smaller packages?).
+- [ ] rewrite example for ponglish
